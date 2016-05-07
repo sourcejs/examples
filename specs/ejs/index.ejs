@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="css/default.css">
+
+<div class="source_info">
+	<p>This spec is rendered out of <code>index.ejs</code>.</p>
+</div>
+
+<% info.examples.forEach(function(example){ %>
+	<section class="source_section">
+		<h2><%- example.title %></h2>
+		<p><%- example.description %></p>
+
+		<div class="source_example">
+			<%- include('templates/' + example.template, {data: example.data}); %>
+		</div>
+	</section>
+<% }); %>
