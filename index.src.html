@@ -1,24 +1,15 @@
 <div class="source_subhead">
-	<h1>Examples Specs</h1>
-	<div class="source_catalog_tx">
-		<p>This Spec catalogue features showcase of SourceJS Spec features and it's plugins. View <a class="source-a_a" href="https://github.com/sourcejs/example-specs-showcase">source code</a> of this library to compare it with rendered results.</p>
-
-		<p>Navigation pages like this, are hand crafted, following <a href="https://sourcejs.com/docs/data-nav" class="source-a_a">Data Nav API</a>.</p>
-	</div>
+	<%- includeMD('README.md') %>
 </div>
 
-<article>
-	<h1>UI documentation</h1>
-	<div class="source_catalog source_catelog--single" data-nav="/specs">
-		<h2>Categories</h2>
-		<p>The UI blocks are grouped into 5 categories in order of complexity.<br/>What types of UI blocks go into which category is explained in each category-section.</p>
+<article class="styleguide_welcome">
+	<div class="source_catalog" data-nav="/">
 	</div>
 </article>
 
-<hr/>
 
-<article class="styleguide_welcome">
-	<%- includeMD('README.md') %>
+<article class="source_licence">
+	<%- includeMD('INSTALLATION.md') %>
 </article>
 
 <hr/>

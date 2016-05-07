@@ -1,13 +1,11 @@
-# SourceJS Spec Page Showcase
+# SourceJS Showcase
 
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/sourcejs/Source)
+Welcome to SourceJS the dynamic Style Guide platform. It allows to combine multiple project UI component libraries, based on many technologies.
+Following Living Style Guide driven development, SourceJS allows you to code new components directly in the Style Guide.
 
-View source code of component folders (`/default`, `/jade` and etc) and compare them with [rendered output](https://sourcejs.com/specs/example-specs-showcase/).
+This catalogue repository showcases the use of SourceJS and it's plugins.
+It demonstrates UI blocks (called specs), created with a variaty of technologies.
 
 Examples are made for SourceJS 0.6.0+ version.
 
-# Setup Instructions
-
-1. run `npm install`.
-2. run `npm run start`.
-3. open http://127.0.0.1:8080
+For install instruction see [INSTALLATION.md](./INSTALLATION.md)
