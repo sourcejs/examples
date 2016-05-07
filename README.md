@@ -11,7 +11,3 @@ Examples are made for SourceJS 0.6.0+ version.
 1. run `npm install`.
 2. run `npm run start`.
 3. open http://127.0.0.1:8080
-
-# Known issues:
-
-* sourcejs-react rendering is broken, the plugin is probably outdated and incompatible with being run from sourcejs within npm structure

@@ -1,5 +1,5 @@
 ﻿<head>
-  <link rel="stylesheet" href="css/markdown.css">
+	<link rel="stylesheet" href="css/markdown.css">
 </head>
 
 This spec is rendered out of `readme.md`.
@@ -22,11 +22,11 @@ Button group description.
 
 ```example
 <div class="btn-group">
-  <button class="btn btn-default">Left</button>
+	<button class="btn btn-default">Left</button>
 
-  <button class="btn btn-default">Middle</button>
+	<button class="btn btn-default">Middle</button>
 
-  <button class="btn btn-default">Right</button>
+	<button class="btn btn-default">Right</button>
 </div>
 ```
 

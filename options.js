@@ -5,7 +5,6 @@ module.exports = {
 	// Core options could be only redefined from user/options.js, context options are not supported
 	core: {
 		server: {
-				port: 8081
 		}
 	},
 
@@ -24,11 +23,6 @@ module.exports = {
 			// navHighlight: {
 			//		 updateHash: false
 			// }
-			"globalNav": {
-				"previews": true,
-				"showPreviews": true,
-				"sortType": "sortByAlph"
-			}
 		},
 
 		// Legacy options object support for some older plugins

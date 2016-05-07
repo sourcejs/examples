@@ -1,24 +1,20 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Norbert de Langen"
   },
-  "description": "Example of pre-configured SourceJS bundle for building React Component Libraries and Style Guides.",
+  "description": "Example of pre-configured SourceJS instance for building a basic Styleguide / Documentation website.",
   "scripts": {
     "build-source": "cd ./node_modules/sourcejs && npm run build",
-    "start": "node ./node_modules/sourcejs/app.js -p $PORT",
-    "postinstall": "linklocal link"
+    "start": "node ./node_modules/sourcejs/app.js -p $PORT"
   },
   "dependencies": {
-    "lodash": "^3.10.1",
-    "sourcejs": "^0.6.0-nightly.5",
+    "sourcejs": "^0.6.0-nightly.6",
     "sourcejs-contrib-dss": "^0.1.1",
-    "sourcejs-jade": "0.0.2",
-    "sourcejs-react": "^3.0.1"
+    "sourcejs-jade": "^0.0.2"
   },
   "devDependencies": {
     "amdefine": "^1.0.0",
-    "express": "^4.13.3",
-    "linklocal": "^2.5.2"
+    "express": "^4.13.3"
   }
 }
