@@ -1,0 +1,17 @@
+.styleguide_welcome {
+	position: relative;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #999 !important;
+}
+
+.source_licence {
+	position: relative;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #999 !important;
+}

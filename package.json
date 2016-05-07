@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "author": {
+    "name": "Norbert de Langen"
+  },
+  "description": "Example of pre-configured SourceJS instance for building a basic Styleguide / Documentation website.",
+  "scripts": {
+    "build-source": "cd ./node_modules/sourcejs && npm run build",
+    "start": "node ./node_modules/sourcejs/app.js -p $PORT"
+  },
+  "dependencies": {
+		"react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "sourcejs": "^0.6.0-nightly.6",
+    "sourcejs-contrib-dss": "^0.1.1",
+    "sourcejs-jade": "^0.0.2",
+		"sourcejs-react-docgen": "^0.3.0",
+    "sourcejs-react-styleguidist": "^0.4.0"
+  },
+  "devDependencies": {
+    "amdefine": "^1.0.0",
+    "express": "^4.13.3"
+  }
+}

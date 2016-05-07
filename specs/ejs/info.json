@@ -1,0 +1,35 @@
+{
+	"author": "Norbert de Langen",
+	"template": "doc",
+	"specFile": "index.ejs",
+	"title": "EJS Spec",
+
+	"examples": [
+		{
+			"title": "Basic Button",
+			"description": "Button description.",
+			"template": "single",
+			"data": "Button"
+		},
+		{
+			"title": "Button Group",
+			"description": "Button group description.",
+			"template": "multiple",
+			"data": [
+				{"text": "Left", "active": false},
+				{"text": "Middle", "active": false},
+				{"text": "Right", "active": false}
+			]
+		},
+		{
+			"title": "Button Group with first active",
+			"description": "Button group description.",
+			"template": "multiple",
+			"data": [
+				{"text": "Left", "active": true},
+				{"text": "Middle", "active": false},
+				{"text": "Right", "active": false}
+			]
+		}
+	]
+}

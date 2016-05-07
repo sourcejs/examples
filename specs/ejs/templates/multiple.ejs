@@ -1,0 +1,5 @@
+<div class="btn-group">
+	<% data.forEach(function(item){ %>
+		<button class="btn <%- item.active ? 'btn-primary' : 'btn-default' %>"><%- item.text %></button>
+	<% }); %>
+</div>

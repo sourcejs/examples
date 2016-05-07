@@ -1,0 +1,32 @@
+﻿link(href='css/jade.css', rel='stylesheet')
+
+.source_info
+	p This spec is rendered out of <code>index.jade</code> file using <a href="https://github.com/sourcejs/sourcejs-jade">sourcejs-jade</a> plugin.
+	p Wrapper view with linked Boostrap CSS styles is taken from <code>doc.ejs</code> <a href="https://github.com/sourcejs/Source/blob/master/core/views/doc.ejs">file</a>, which is configured in Spec's <code>info.json</code>.
+	p View this Spec <a href="https://github.com/sourcejs/examples/blob/master/jade/index.jade">source code</a>.
+
+section.source_section
+	h2 Basic button
+
+	p Button description.
+
+	.source_example
+		include jade/templates/default
+
+section.source_section
+	h2 Button group
+
+	p Button group description.
+
+	code.src-html.source_visible
+	.source_example
+		include jade/templates/group
+
+section.source_section
+	h2 Custom button
+
+	p Style for this button are from linked Spec CSS file <code>css/jade.css</code>.
+
+	code.src-html.source_visible
+	.source_example
+		a.jade-btn(href="#777") Jade Button
